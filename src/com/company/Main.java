@@ -7,7 +7,7 @@ public class Main {
         int cntr = 30;
         byte myByte = 125;
         int [] myArray = new int[10];
-        int [][] dimArray = {{1,2,3},{4,5,5,6}, {7,8,9}};
+        int [][] dimArray = {{1,2,3}, {4,5,5,6}, {7,8,9}};
         String myStr = "OMG, I've started learning!";
         Scanner scan = new Scanner(System.in);
 
@@ -28,7 +28,7 @@ public class Main {
         }
         System.out.println(nwStr);
         System.out.println(myStr);
-        System.out.println(((String) myStr).concat(" Oh no way, man!"));
+        System.out.println(myStr.concat(" Oh no way, man!"));
         System.out.println("Please, input your age...");
         myStr = scan.nextLine();
         switch (myStr) {
